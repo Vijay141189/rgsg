@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vijay Shankar | Staff DevSecOps Architect & AI Systems Engineer</title>
+  <meta name="description" content="Portfolio of Vijay Shankar - 9+ Years Experience in Enterprise DevSecOps, Zero-Trust Cloud Platforms, Autonomous AI Agents, Model Context Protocol (MCP), and Enterprise RAG.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+</head>
+<body class="dark-theme">
+  <!-- Glowing Cursor Background Glow Effect -->
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <!-- NAVIGATION -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="brand-logo">
+        <span class="logo-icon">⚡</span>
+        <span class="logo-text">VIJAY<span class="highlight">.DEVSECOPS</span></span>
+      </a>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#terminal" class="nav-link">CLI Terminal</a>
+        <a href="#pillars" class="nav-link">Expertise</a>
+        <a href="#ai-agent-demo" class="nav-link ai-nav-glow">AI & MCP Demo</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#contact" class="btn btn-outline-nav">Let's Connect</a>
+      </div>
+
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <header class="hero-section" id="hero">
+    <div class="hero-bg-shapes">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="grid-overlay"></div>
+    </div>
+
+    <div class="container hero-content">
+      <div class="status-pill">
+        <span class="status-dot"></span>
+        <span>Open to Staff / Lead DevSecOps & AI Platform Opportunities</span>
+      </div>
+
+      <h1 class="hero-title">
+        Vijay Shankar
+      </h1>
+
+      <h2 class="hero-subtitle">
+        <span class="gradient-text">Staff DevSecOps Architect</span> &amp; <br class="desktop-only"/>
+        <span class="gradient-text-alt">Autonomous AI Systems Engineer</span>
+      </h2>
+
+      <p class="hero-description">
+        9+ Years of enterprise experience architecting <strong>Zero-Trust multi-cloud infrastructures</strong>, 
+        enterprise <strong>Kubernetes</strong> at scale, and pioneering <strong>Agentic AI &amp; Model Context Protocol (MCP)</strong> 
+        for autonomous cloud governance and enterprise intelligence.
+      </p>
+
+      <!-- Key Metrics Badges -->
+      <div class="metrics-strip">
+        <div class="metric-card">
+          <span class="metric-num">9+</span>
+          <span class="metric-label">Years Enterprise</span>
+        </div>
+        <div class="metric-divider"></div>
+        <div class="metric-card">
+          <span class="metric-num">99.999%</span>
+          <span class="metric-label">Cloud SLA Uptime</span>
+        </div>
+        <div class="metric-divider"></div>
+        <div class="metric-card">
+          <span class="metric-num">0-Day</span>
+          <span class="metric-label">Zero-Trust Security</span>
+        </div>
+        <div class="metric-divider"></div>
+        <div class="metric-card">
+          <span class="metric-num">MCP &amp; RAG</span>
+          <span class="metric-label">Agentic AI Native</span>
+        </div>
+      </div>
+
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary" id="btnExploreWork">
+          <span>Explore Architecture Showcase</span>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+        <a href="#terminal" class="btn btn-secondary" id="btnLaunchCli">
+          <span class="cli-icon">$</span>
+          <span>Launch Interactive CLI</span>
+        </a>
+        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="btn btn-glass">
+          <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+          <span>LinkedIn</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- INTERACTIVE TERMINAL SECTION -->
+  <section class="section terminal-section" id="terminal">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="badge badge-cyan">CLI Sandbox</span>
+        <h2 class="section-title">Interactive DevSecOps &amp; AI Terminal</h2>
+        <p class="section-desc">Experience my technical capabilities hands-on. Type commands or click the shortcut chips below.</p>
+      </div>
+
+      <!-- Quick Command Chips -->
+      <div class="terminal-chips">
+        <span class="chip-label">Quick Commands:</span>
+        <button class="term-chip" data-cmd="help">help</button>
+        <button class="term-chip" data-cmd="skills">skills</button>
+        <button class="term-chip" data-cmd="mcp-status">mcp-status</button>
+        <button class="term-chip" data-cmd="run-triage">run-triage</button>
+        <button class="term-chip" data-cmd="certs">certs</button>
+        <button class="term-chip" data-cmd="contact">contact</button>
+        <button class="term-chip" data-cmd="clear">clear</button>
+      </div>
+
+      <!-- Terminal Window -->
+      <div class="terminal-window">
+        <div class="terminal-bar">
+          <div class="window-controls">
+            <span class="ctrl-dot red"></span>
+            <span class="ctrl-dot yellow"></span>
+            <span class="ctrl-dot green"></span>
+          </div>
+          <div class="window-title">vijay@enterprise-devsecops-mcp: ~ (zsh)</div>
+          <div class="window-actions">
+            <span class="term-live-tag">LIVE AGENT CONNECTED</span>
+          </div>
+        </div>
+
+        <div class="terminal-body" id="terminalBody">
+          <div class="term-line welcome-line">
+            <span class="term-green">✔ System initialized:</span> DevSecOps &amp; Agentic AI Orchestration Engine v4.2.0
+          </div>
+          <div class="term-line">
+            Type <span class="term-cyan">help</span> to list available commands or click the quick chips above.
+          </div>
+          <div class="term-line output-line">
+            <span class="term-purple">vijay@architect:~$</span> <span class="term-cyan">whoami</span>
+          </div>
+          <div class="term-line text-muted">
+            ➜ Vijay Shankar | 9+ Years Exp | Staff DevSecOps Architect | AI Platform &amp; MCP Specialist
+          </div>
+        </div>
+
+        <div class="terminal-input-bar">
+          <span class="term-prompt">vijay@architect:~$</span>
+          <input type="text" id="terminalInput" class="term-input" placeholder="Type a command (e.g., mcp-status, skills, run-triage)..." autocomplete="off" spellcheck="false">
+          <button id="termSubmitBtn" class="term-submit-btn">Run</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LIVE AI AGENT & MCP PLAYGROUND SIMULATION -->
+  <section class="section ai-demo-section" id="ai-agent-demo">
+    <div class="container">
+      <div class="ai-box-container">
+        <div class="ai-box-header">
+          <div class="ai-header-left">
+            <div class="ai-agent-icon">🤖</div>
+            <div>
+              <h3 class="ai-title">Autonomous SRE &amp; Security Triage Agent</h3>
+              <p class="ai-subtitle">Powered by Model Context Protocol (MCP) + LangGraph Reasoning Engine</p>
+            </div>
+          </div>
+          <div class="ai-badge">LIVE SIMULATOR</div>
+        </div>
+
+        <div class="ai-playground-grid">
+          <div class="ai-controls-col">
+            <p class="ai-instructions">Select an incident scenario to watch the Autonomous Agent reason, invoke MCP server tools, and remediate cloud infrastructure in real-time:</p>
+            
+            <div class="scenario-list">
+              <button class="scenario-btn active" data-scenario="k8s-pod-crash">
+                <span class="scenario-icon">🔴</span>
+                <span class="scenario-info">
+                  <strong>Kubernetes OOMKilled &amp; CrashLoop</strong>
+                  <small>EKS production cluster node memory spike</small>
+                </span>
+              </button>
+
+              <button class="scenario-btn" data-scenario="cve-zero-day">
+                <span class="scenario-icon">🛡️</span>
+                <span class="scenario-info">
+                  <strong>Critical CVE in Production Pipeline</strong>
+                  <small>Trivy scans detect base image vulnerability</small>
+                </span>
+              </button>
+
+              <button class="scenario-btn" data-scenario="rag-compliance">
+                <span class="scenario-info">
+                  <span class="scenario-icon">🧠</span>
+                  <strong>SOC2 &amp; CIS Policy-as-Code Audit</strong>
+                  <small>Query Enterprise RAG &amp; Kyverno verification</small>
+                </span>
+              </button>
+            </div>
+
+            <button id="btnRunAgent" class="btn btn-ai-run">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+              <span>Trigger Autonomous Agent Workflow</span>
+            </button>
+          </div>
+
+          <div class="ai-output-col">
+            <div class="ai-terminal-preview">
+              <div class="ai-telemetry-header">
+                <span>Agent Execution Stream</span>
+                <span id="agentStatusBadge" class="badge-status idle">IDLE</span>
+              </div>
+              <div class="agent-stream-content" id="agentStreamContent">
+                <div class="stream-step initial">
+                  <span class="step-timestamp">[SYSTEM READY]</span>
+                  <p>Agent standing by with 4 connected MCP tool servers: <code>mcp-k8s-operator</code>, <code>mcp-trivy-scanner</code>, <code>mcp-vault-pki</code>, <code>mcp-enterprise-rag</code>.</p>
+                  <p class="text-cyan">Click 'Trigger Autonomous Agent Workflow' to observe autonomous triage.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOUR ARCHITECTURAL PILLARS -->
+  <section class="section pillars-section" id="pillars">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="badge badge-purple">Core Competency Matrix</span>
+        <h2 class="section-title">The DevSecOps &amp; AI Fusion Advantage</h2>
+        <p class="section-desc">Why modern high-growth tech firms hire me: Enterprise-grade stability fused with autonomous intelligence.</p>
+      </div>
+
+      <div class="pillars-grid">
+        <!-- Pillar 1 -->
+        <div class="pillar-card">
+          <div class="pillar-icon-wrap icon-cyan">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h3 class="pillar-title">Zero-Trust DevSecOps</h3>
+          <p class="pillar-desc">
+            Shift-left security deeply embedded into continuous delivery pipelines. 
+            Automated SAST/DAST, dynamic secrets generation, container signing, and strict policy-as-code gates.
+          </p>
+          <ul class="pillar-features">
+            <li><span>✔</span> HashiCorp Vault (Dynamic Secrets &amp; PKI)</li>
+            <li><span>✔</span> Trivy, Snyk, SonarQube &amp; Checkov</li>
+            <li><span>✔</span> Open Policy Agent (OPA) &amp; Kyverno</li>
+            <li><span>✔</span> Cosign/Sigstore &amp; SLSA Supply-Chain Security</li>
+          </ul>
+        </div>
+
+        <!-- Pillar 2 -->
+        <div class="pillar-card">
+          <div class="pillar-icon-wrap icon-purple">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+          </div>
+          <h3 class="pillar-title">Agentic AI &amp; MCP Architecture</h3>
+          <p class="pillar-desc">
+            Bridging cloud infrastructure with autonomous intelligence. 
+            Deploying Model Context Protocol (MCP) servers, self-healing multi-agent workflows, and enterprise RAG.
+          </p>
+          <ul class="pillar-features">
+            <li><span>✔</span> Model Context Protocol (MCP) Tool Integration</li>
+            <li><span>✔</span> LangGraph &amp; CrewAI Multi-Agent Systems</li>
+            <li><span>✔</span> Production RAG with Vector DBs (Qdrant, Pinecone)</li>
+            <li><span>✔</span> LLMOps, NeMo Guardrails &amp; vLLM Deployment</li>
+          </ul>
+        </div>
+
+        <!-- Pillar 3 -->
+        <div class="pillar-card">
+          <div class="pillar-icon-wrap icon-emerald">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></svg>
+          </div>
+          <h3 class="pillar-title">Cloud Native &amp; GitOps</h3>
+          <p class="pillar-desc">
+            Declarative infrastructure as code at petabyte scale. 
+            Multi-cluster Kubernetes orchestration, service mesh traffic management, and automated ArgoCD GitOps pipelines.
+          </p>
+          <ul class="pillar-features">
+            <li><span>✔</span> Terraform (Modular Landing Zones) &amp; OpenTofu</li>
+            <li><span>✔</span> Multi-Cluster Kubernetes (EKS, AKS, GKE)</li>
+            <li><span>✔</span> ArgoCD &amp; Flux GitOps Continuous Delivery</li>
+            <li><span>✔</span> Istio Service Mesh &amp; Cilium eBPF Networking</li>
+          </ul>
+        </div>
+
+        <!-- Pillar 4 -->
+        <div class="pillar-card">
+          <div class="pillar-icon-wrap icon-amber">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg>
+          </div>
+          <h3 class="pillar-title">Observability &amp; FinOps</h3>
+          <p class="pillar-desc">
+            Comprehensive telemetry and aggressive cloud financial optimization. 
+            Automated rightsizing, spot orchestration, OpenTelemetry distributed tracing, and chaos engineering.
+          </p>
+          <ul class="pillar-features">
+            <li><span>✔</span> Prometheus, Grafana, Thanos &amp; Datadog</li>
+            <li><span>✔</span> OpenTelemetry (OTel) &amp; Distributed Tracing</li>
+            <li><span>✔</span> 40% Proven FinOps Cloud Cost Reduction</li>
+            <li><span>✔</span> Chaos Mesh &amp; Litmus Automated Resilience</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURED PROJECTS SHOWCASE -->
+  <section class="section projects-section" id="projects">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="badge badge-emerald">Architectural Portfolios</span>
+        <h2 class="section-title">Flagship Enterprise Projects</h2>
+        <p class="section-desc">Production-ready reference architectures engineered for scalability, zero-trust security, and AI enablement.</p>
+      </div>
+
+      <!-- Filter Tabs -->
+      <div class="project-filters">
+        <button class="filter-btn active" data-filter="all">All Projects</button>
+        <button class="filter-btn" data-filter="ai">AI Agents &amp; MCP</button>
+        <button class="filter-btn" data-filter="devsecops">DevSecOps &amp; Security</button>
+        <button class="filter-btn" data-filter="iac">Terraform &amp; Cloud</button>
+      </div>
+
+      <div class="projects-grid">
+        <!-- Project 1: Autonomous SRE Agent -->
+        <div class="project-card" data-category="ai">
+          <div class="project-badge badge-ai">Agentic AI &amp; MCP</div>
+          <h3 class="project-title">Autonomous SRE Incident Triage Agent</h3>
+          <p class="project-desc">
+            An intelligent multi-agent system utilizing the Model Context Protocol (MCP) to autonomously triage Kubernetes alerts, query Prometheus metrics, inspect container logs, and submit pull requests with exact Terraform/Manifest fixes.
+          </p>
+          <div class="project-tech-stack">
+            <span class="tech-tag">MCP Protocol</span>
+            <span class="tech-tag">LangGraph</span>
+            <span class="tech-tag">Kubernetes</span>
+            <span class="tech-tag">Prometheus</span>
+            <span class="tech-tag">Python</span>
+          </div>
+          <div class="project-impact">
+            <strong>Impact:</strong> Reduced Mean Time to Resolution (MTTR) by 75% on infrastructure alerts.
+          </div>
+        </div>
+
+        <!-- Project 2: Enterprise GitOps Zero Trust -->
+        <div class="project-card" data-category="devsecops">
+          <div class="project-badge badge-sec">Zero-Trust Security</div>
+          <h3 class="project-title">Multi-Cloud Zero-Trust GitOps Platform</h3>
+          <p class="project-desc">
+            Production-grade multi-cluster Kubernetes environment orchestrated with ArgoCD and secured with HashiCorp Vault dynamic secrets. Features Kyverno policy enforcement, Cosign container signing, and automated zero-downtime canary rollouts.
+          </p>
+          <div class="project-tech-stack">
+            <span class="tech-tag">ArgoCD</span>
+            <span class="tech-tag">HashiCorp Vault</span>
+            <span class="tech-tag">Kyverno</span>
+            <span class="tech-tag">Istio Mesh</span>
+            <span class="tech-tag">Trivy</span>
+          </div>
+          <div class="project-impact">
+            <strong>Impact:</strong> 100% elimination of hardcoded secrets and zero critical vulnerabilities deployed to production.
+          </div>
+        </div>
+
+        <!-- Project 3: Enterprise RAG System -->
+        <div class="project-card" data-category="ai">
+          <div class="project-badge badge-ai">Enterprise RAG</div>
+          <h3 class="project-title">Enterprise Ops &amp; Compliance RAG Pipeline</h3>
+          <p class="project-desc">
+            Sub-second Retrieval-Augmented Generation system allowing SRE and engineering teams to query thousands of internal architecture runbooks, SOC2 compliance policies, and incident post-mortems with zero hallucination guardrails.
+          </p>
+          <div class="project-tech-stack">
+            <span class="tech-tag">Qdrant Vector DB</span>
+            <span class="tech-tag">Hybrid Search</span>
+            <span class="tech-tag">NeMo Guardrails</span>
+            <span class="tech-tag">FastAPI</span>
+            <span class="tech-tag">vLLM</span>
+          </div>
+          <div class="project-impact">
+            <strong>Impact:</strong> 90% faster on-call engineer lookup times and strict regulatory compliance verification.
+          </div>
+        </div>
+
+        <!-- Project 4: Modular Azure/AWS Landing Zone -->
+        <div class="project-card" data-category="iac">
+          <div class="project-badge badge-cloud">Terraform Cloud</div>
+          <h3 class="project-title">Modular Multi-Region Cloud Landing Zone</h3>
+          <p class="project-desc">
+            Enterprise Terraform framework deploying an Azure Hub-and-Spoke and AWS Multi-Account Organization setup. Integrated with centralized firewall inspection, transit gateways, automated IAM boundaries, and FinOps budgeting policies.
+          </p>
+          <div class="project-tech-stack">
+            <span class="tech-tag">Terraform</span>
+            <span class="tech-tag">Terragrunt</span>
+            <span class="tech-tag">Azure Hub-Spoke</span>
+            <span class="tech-tag">AWS Transit GW</span>
+            <span class="tech-tag">Infracost</span>
+          </div>
+          <div class="project-impact">
+            <strong>Impact:</strong> Spun up audit-ready environments in 25 minutes instead of 3 weeks, saving 40% on cloud waste.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9-YEAR CAREER TIMELINE -->
+  <section class="section timeline-section" id="experience">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="badge badge-cyan">9+ Years Journey</span>
+        <h2 class="section-title">Leadership &amp; Career Evolution</h2>
+        <p class="section-desc">Consistent track record of scaling high-availability systems, leading security transformations, and building modern AI infrastructure.</p>
+      </div>
+
+      <div class="timeline">
+        <!-- Item 1 -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-date">2023 — Present</div>
+            <h3 class="timeline-role">Staff DevSecOps &amp; AI Systems Architect</h3>
+            <p class="timeline-company">Enterprise Cloud Infrastructure &amp; AI Platforms</p>
+            <p class="timeline-body">
+              Architecting multi-cloud Kubernetes platforms and leading the integration of Autonomous AI Agents via Model Context Protocol (MCP). Spearheading zero-trust migration, automated SRE triage, and enterprise RAG compliance knowledge engines.
+            </p>
+            <div class="timeline-tags">
+              <span>MCP Protocol</span><span>LangGraph</span><span>Multi-Cloud K8s</span><span>Zero-Trust</span><span>ArgoCD</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-date">2020 — 2023</div>
+            <h3 class="timeline-role">Lead Cloud Security &amp; DevSecOps Engineer</h3>
+            <p class="timeline-company">High-Scale Enterprise Cloud Systems</p>
+            <p class="timeline-body">
+              Engineered shift-left security framework across 150+ microservices. Deployed HashiCorp Vault enterprise cluster for dynamic database credentials, implemented Trivy/SonarQube pipeline gates, and achieved SOC2 Type II compliance.
+            </p>
+            <div class="timeline-tags">
+              <span>HashiCorp Vault</span><span>Terraform Modules</span><span>EKS / AKS</span><span>Trivy</span><span>OPA Gatekeeper</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-date">2017 — 2020</div>
+            <h3 class="timeline-role">Senior DevOps &amp; Site Reliability Engineer</h3>
+            <p class="timeline-company">Enterprise Infrastructure &amp; Cloud Migration</p>
+            <p class="timeline-body">
+              Migrated monolith architecture to distributed Docker/Kubernetes on AWS and Azure. Built CI/CD pipelines with Jenkins and GitLab CI, reducing deployment failure rates from 18% to under 0.5%.
+            </p>
+            <div class="timeline-tags">
+              <span>Kubernetes</span><span>Docker</span><span>AWS</span><span>Prometheus</span><span>GitLab CI</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 4 -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-date">2015 — 2017</div>
+            <h3 class="timeline-role">Cloud Infrastructure &amp; Systems Engineer</h3>
+            <p class="timeline-company">Infrastructure Automation &amp; Linux Operations</p>
+            <p class="timeline-body">
+              Managed Linux fleet, shell automation, Ansible configuration management, network monitoring, and system hardening across on-premise and hybrid cloud servers.
+            </p>
+            <div class="timeline-tags">
+              <span>Linux</span><span>Bash</span><span>Ansible</span><span>Networking</span><span>Python</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INDUSTRY CERTIFICATIONS -->
+  <section class="section certs-section">
+    <div class="container text-center">
+      <span class="badge badge-purple">Validated Mastery</span>
+      <h2 class="section-title">Industry Credentials &amp; Certifications</h2>
+      <div class="certs-grid">
+        <div class="cert-card">
+          <div class="cert-badge-logo aws">AWS</div>
+          <h4>AWS Certified Solutions Architect</h4>
+          <p>Professional Level</p>
+        </div>
+        <div class="cert-card">
+          <div class="cert-badge-logo k8s">CKA</div>
+          <h4>Certified Kubernetes Administrator</h4>
+          <p>Linux Foundation / CNCF</p>
+        </div>
+        <div class="cert-card">
+          <div class="cert-badge-logo cks">CKS</div>
+          <h4>Certified Kubernetes Security Specialist</h4>
+          <p>Linux Foundation / CNCF</p>
+        </div>
+        <div class="cert-card">
+          <div class="cert-badge-logo azure">AZURE</div>
+          <h4>Azure Solutions Architect Expert</h4>
+          <p>Microsoft Certified</p>
+        </div>
+        <div class="cert-card">
+          <div class="cert-badge-logo tf">TF</div>
+          <h4>HashiCorp Terraform Associate</h4>
+          <p>Infrastructure as Code</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT & CALL TO ACTION -->
+  <section class="section contact-section" id="contact">
+    <div class="container">
+      <div class="contact-card">
+        <div class="contact-header text-center">
+          <span class="badge badge-emerald">Ready to Scale</span>
+          <h2 class="contact-title">Let's Build Resilient, AI-Powered Cloud Systems</h2>
+          <p class="contact-desc">
+            Looking for a <strong>Staff/Lead DevSecOps Architect</strong> or an <strong>AI Infrastructure Specialist</strong> to elevate your enterprise platform? Let's connect.
+          </p>
+        </div>
+
+        <div class="contact-buttons text-center">
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+            <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+            <span>Connect on LinkedIn</span>
+          </a>
+          <a href="mailto:vijay@example.com" class="btn btn-secondary">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <span>Send Direct Email</span>
+          </a>
+          <a href="https://github.com/Vijay141189" target="_blank" rel="noopener noreferrer" class="btn btn-glass">
+            <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+            <span>GitHub Profile</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>&copy; 2026 Vijay Shankar. Architecting Resilience, Security, &amp; Autonomous Intelligence.</p>
+      <p class="footer-sub">Designed for Maximum Enterprise Impact &bull; Built with Vanilla HTML, CSS &amp; JS</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
